@@ -25,8 +25,8 @@ This repo is the **core engine source** of `ttpoker / Texas-Hold-em-Cash-Tables_
 
 ## 一、项目亮点（Project Highlights）
 
-- ✅ **100% 支持德州现金桌 + 俱乐部玩法**  
-  - 支持 6~9 人现金桌，自动配桌、自动结算  
+- ✅ **100% 支持 俱乐部玩法**  
+  - 支持 6~9 人俱乐部桌，自动配桌、自动结算  
   - 支持多桌并行、多盲注、多底池结构  
 - ✅ **俱乐部与代理解体系**  
   - 俱乐部创建、成员管理、俱乐部专属房间与赛事  
