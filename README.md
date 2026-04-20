@@ -1,39 +1,92 @@
-# Texas Hold'em Poker Engine – 全球德州扑克俱乐部平台（产品授权及联合运营合作）
-# 德州扑克引擎（俱乐部平台）
-> 一款支持俱乐部与多俱乐部平台的德州扑克游戏引擎，适用于 Web（H5）、APP、俱乐部运营等场景。  
-> A Texas Hold'em poker engine supporting cash tables, clubs and multi‑club platforms for Web(H5), APP, club operations.
+markdown
+# Texas Hold'em Club Platform – 德州扑克俱乐部平台
 
-> 一份可直接试玩、快速部署的商业级德州扑克解决方案。**寻求：区域代理 / 源码授权 / 联合运营伙伴**
-## 项目定位（Project Positioning）
+> 一套完整的德州扑克**俱乐部模式**解决方案，支持多俱乐部、代理分润、赛事联盟。  
+> A complete Texas Hold'em platform for **club-based operations**, supporting multi-club, agent commission, and tournament leagues.
 
-本仓库是 `ttpoker` 主项目 `Texas-Hold-em-Cash-Tables_Texas-Hold-em-Clubs` 的**核心引擎源码入口**，包含：  
+[![Platform](https://img.shields.io/badge/Platform-Club%20System-blue)]()
+[![Languages](https://img.shields.io/badge/Languages-15%2B-green)]()
+[![Partnership](https://img.shields.io/badge/Partnership-Open-brightgreen)]()
 
-- 底层牌局引擎  
-- 俱乐部逻辑  
-- 边池、all‑in、结算、牌型评估等核心规则  
-- 为多端平台（Web / App / 小程序 / H5）提供统一游戏后端  
+---
 
-This repo is the **core engine source** of `ttpoker / Texas-Hold-em-Cash-Tables_Texas-Hold-em-Clubs`, including:  
-- Poker game engine (table logic, rules, evaluation)  
-- Cash tables & club logic  
-- Side‑pots, all‑in, settlement, hand evaluation  
-- Backend foundation for Web / App / mini‑app / H5.
+## 🎯 产品定位 / Product Positioning
 
-> 一个德州扑克核心规则引擎，可用于构建：  
-> - 现金桌平台  
-> - 锦标赛系统（SNG / MTT）  
-> - 俱乐部/联盟平台后端  
+本产品是专为**德州扑克俱乐部运营**设计的一站式平台，而非单纯的现金桌或游戏引擎。
 
-This is a **Texas Hold'em poker core engine**, suitable for building:  
-- Cash game platforms  
-- Tournaments (SNG / MTT)  
-- Club / alliance backends.
+**核心能力：**
+- 俱乐部创建与会员管理
+- 多层级代理分润系统
+- 俱乐部专属现金桌 + 赛事（SNG/MTT）
+- 跨俱乐部联赛/联盟功能
+- 多端支持：Web（H5）、iOS、Android、后台管理系统
+## 🎮 核心功能 / Core Features
+
+| 中文 | English |
+| :--- | :--- |
+| 俱乐部创建与装修 | Club creation & branding |
+| 成员邀请与管理 | Member invitation & management |
+| 多级代理分润系统 | Multi-tier agent commission |
+| 俱乐部现金桌（6-9人） | Club cash tables (6-9 players) |
+| 俱乐部内部赛事（SNG/MTT） | Club tournaments (SNG/MTT) |
+| 跨俱乐部联赛 | Cross-club leagues |
+| 实时牌局结算 | Real-time hand settlement |
+| 防作弊系统 | Anti-cheat system |
+| 24小时运维 | 24/7 operations |
+
+---
+
+## 🌍 多语言支持 / Multi-Language
+
+简体中文 · English · ไทย · Tiếng Việt · Bahasa Indonesia · 日本語 · 한국어 · Bahasa Melayu · Русский · Français · Deutsch · العربية · Español · Português
+
+*(15+ languages supported)*
+
+## 🏗️ 技术架构 / Tech Stack
+
+| 模块 | 技术 |
+| :--- | :--- |
+| 后端核心 | C++ (牌局引擎) |
+| 业务后台 | Java Spring Boot |
+| 通信协议 | WebSocket / TCP |
+| 数据库 | MySQL + Redis |
+| 客户端 | Unity (iOS/Android/H5) |
+| 管理后台 | Vue.js + Element UI |
+
+---
+
+## 🤝 合作模式 / Partnership Models
+
+| 模式 | 说明 | 适合人群 |
+| :--- | :--- | :--- |
+| **区域代理** | 你推广俱乐部/玩家，我们提供技术，按流水分润 | 有本地流量或渠道资源者 |
+| **产品授权** | 一次性获取完整产品（品牌可自定义），自主部署运营 | 想快速上线、无技术团队者 |
+| **源码授权** | 一次性获取全端源码，可二次开发 | 有技术团队、需要深度定制者 |
+| **联合运营** | 共同投资，按股份比例分红 | 有资金且希望长期合作者 |
+
+> ✅ 我方主推模式：**源码授权** 或 **产品授权**
+
+---
+
+## 📌 合作要求 / Requirements
+
+- 拥有本地棋牌 / 游戏流量资源  
+  **或**
+- 具备技术团队（仅源码授权需要）  
+  **或**
+- 启动资金（面议）
 - 
-[![平台类型](https://img.shields.io/badge/平台-德州俱乐部-blue)]()
-[![语言支持](https://img.shields.io/badge/语言-中/英/泰/越/印尼/葡/西等-green)]()
-[![合作状态](https://img.shields.io/badge/合作-开放中-brightgreen)]()
+## 💰 收益模型 / Revenue Model (示例)
 
-## 一、项目亮点（Project Highlights）
+| 模式 | 收益方式 |
+| :--- | :--- |
+| 产品授权 | 一次性费用 **面议** + 每年技术服务费 **15%** |
+| 源码授权 | 一次性费用 **面议** |
+| 区域代理 | 现金桌抽水返点：**30%–50%** |
+| 联合运营 | 按出资比例，季度分红 |
+contact must include: partnership model + your region*
+
+## 项目亮点（Project Highlights）
 
 - ✅ **100% 支持 俱乐部玩法**  
   - 支持 6~9 人俱乐部桌，自动配桌、自动结算  
@@ -50,7 +103,7 @@ This is a **Texas Hold'em poker core engine**, suitable for building:
 
 ---
 
-## 二、技术架构（Tech Stack）
+## 技术架构（Tech Stack）
 
 - 服务端 / Backend：`C++ / Java 
 - 通信协议 / Protocol：`WebSocket / TCP / HTTP API`  
@@ -80,17 +133,13 @@ This is a **Texas Hold'em poker core engine**, suitable for building:
 
 ---
 
-## 📌 合作条件与收益（必须填写清楚）
+## 📞 联系方式 / Contact
 
-### 对合作方要求
-- 【示例：拥有东南亚地区棋牌流量资源 / 有技术团队能二次开发 / 启动资金不低于XX万】
+- **Telegram**: @lovepokers
+- **合作邮箱**: libaishi62@gmail.com
 
-### 收益模型示例
-- **产品授权**：一次性费用【8万】+ 后续每年【15%】技术服务费（可选）
-- **区域代理**：首月流水返点【X%】，次月起【X%】+ 月度达标奖金
-- **联合运营**：按出资比例占股，分红周期【季度/月】
-- **源码运营**：一次付款
----
+> 📌 首次联系请备注：**合作模式 + 所在地区**  
+
 
 ## 🔐 可信度证明（点击查看）
 
@@ -110,15 +159,6 @@ This is a **Texas Hold'em poker core engine**, suitable for building:
 <img width="630" height="1062" alt="4db23a3370ccf35152f376ce829cb6ba" src="https://github.com/user-attachments/assets/cc243caa-18d5-4005-a21f-c7a9f3c347ef" />
 ---
 
-## 📞 正式联系方式
-
-
-- **Telegram**：@lovepokers
-- EMail:libaishi62@gmail.com
-
-
-
-> 📌 **首次联系请备注**：合作模式（代理/源码/联营）+ 所在地区
 
 
 
@@ -128,58 +168,46 @@ This is a **Texas Hold'em poker core engine**, suitable for building:
 3️⃣ 提供Demo试玩账号 + 合作方案PPT  
 4️⃣ 预约技术演示与答疑  
 
-## 测试用例说明（Testing)
+## 📁 代码结构 / Code Structure (本仓库)
 
-- test/core/  
-  - 手牌评估测试：验证不同牌型的组合与比较  
-  - 边池拆分测试：多 all‑in 场景的边池是否正确分配  
-- test/game/  
-  - 一局完整牌局测试：Pre-flop → Flop → Turn → River → 摊牌，结算正确  
-- test/extensibility/  
-  - 模拟后续玩法扩展（如短牌、AOF），验证引擎可支持不同规则  
+本仓库包含**俱乐部平台的核心后端代码**（牌局引擎 + 部分业务逻辑）。
 
-## ❓ 常见问题（FAQ）
+| 目录/文件 | 说明 |
+| :--- | :--- |
+| `core/` | 牌局引擎：手牌评估、规则校验、底池计算 |
+| `club/` | 俱乐部逻辑：创建、成员管理、权限 |
+| `agent/` | 代理分润模块 |
+| `api/` | 对外接口，供客户端和管理后台调用 |
+| `test/` | 单元测试（手牌评估、边池拆分、俱乐部流程） |
 
-**Q：源码是什么技术栈？**  
-A：【示例：客户端unity，服务器c++，后端Java】
-
-**Q：是否支持二次开发？**  
-A：源码完整，可自行修改；我们也提供付费定制服务。
-
-**Q：最少投入多少资金？**  
-A：代理模式无固定门槛；源码授权【XX万起】。
-
-**Q：是否支持多国货币/支付？**  
-A：已集成美元、泰铢、越南盾等代币系统，可替换真实支付通道。
+> 完整的客户端代码（iOS/Android/H5）和管理后台代码将在签署协议后一并提供。
 
 ---
 
-©  – 寻求长期、诚信的全球合作伙伴
-## 可商用与合作说明（可选）
+## ❓ FAQ / 常见问题
 
-- 本引擎可作为：  
-  - 本地平台的德州扑克后端  
-  - 俱乐部/代理解平台的“规则核心”  
-- 合作模式：  
-  - **引擎授权**：可作为“98poker 德州扑克引擎”授权到你的项目，可商用集成  
-  - **技术支持**：可提供 API 文档、集成协助、优化服务  
+**Q：俱乐部模式与普通现金桌有什么区别？**  
+A：俱乐部模式支持独立俱乐部创建、成员邀请、内部排名、代理分润，以及跨俱乐部联赛。更适合本地化社群运营。
 
+**Q：一个俱乐部最多支持多少会员？**  
+A：无硬性上限，取决于服务器配置。我们建议单俱乐部不超过 5000 活跃会员。
 
-> 首次联系请备注：合作模式（引擎授权 / 技术支持 / 集成）+ 所在地区  
+**Q：代理分润可以自定义吗？**  
+A：可以。支持多层级、多比例配置，后台可随时调整。
 
-MIT License
+**Q：是否支持多币种 / 真实支付？**  
+A：已集成代币系统，可替换为 USD、THB、VND 等真实支付通道。
 
-Copyright (c) 2026 98poker
+**Q：交付后提供多久技术支持？**  
+A：产品/源码授权提供 **3 个月** 免费技术支持，后续可选年费服务（15% 授权费）。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files, to use, copy, modify, publish,
-distribute, sublicense, and sell copies, provided the above copyright notice is included.
-# CHANGELOG
+## 📄 许可证 / License
 
-## v1.0.0 (2026-04-20)
-- 德州扑克引擎核心版本，支持发牌、下注、all‑in、边池、结算
-- 提供手牌评估器与游戏状态机，可被其他平台调用
+© 98poker. 本代码为商业软件，**未经授权不得使用**。  
+完整源码、部署文档、Demo 账号均在签署 NDA 及商业协议后提供。
 
-本仓库 `98poker/texas-holdem-poker-engine` 是一个独立的德州扑克规则引擎，可构建现金局、锦标赛、俱乐部系统，适合扑克平台后端使用，可授权集成、可做技术合作与引擎支持。
-This repo `98poker/texas-holdem-poker-engine` is a standalone Texas Hold'em poker engine, suitable for building cash games, tournaments, and club systems, as a backend for poker platforms. It can be licensed for integration and technical support.
+---
+
+© 98poker – 专业德州扑克俱乐部平台  
+*Seeking long‑term, trustworthy global partners for club‑based poker operations.*
 
