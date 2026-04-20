@@ -86,8 +86,8 @@ This repo is the **core engine source** of `ttpoker / Texas-Hold-em-Cash-Tables_
 
 | 证明类型 | 查看方式 |
 | :--- | :--- |
-| **在线试玩** | 【联系**Telegram**：@godispokerai】 |
-| **功能演示视频** | 【联系**Telegram**：@godispokerai】 |
+| **在线试玩** | 【联系**Telegram**：@lovepokers】 |
+| **功能演示视频** | 【联系**Telegram**：@lovepokers】 |
 
 <img width="600" height="976" alt="196fa5f87e977f36b814db6eb63aed9e" src="https://github.com/user-attachments/assets/d9836795-9aea-4ae5-ab49-0ce7f6710e29" />
 <img width="610" height="1065" alt="eadef0a3b7d2f7fe0f09c88fd9677141" src="https://github.com/user-attachments/assets/7506c38f-c237-4aab-8b06-a543aba62426" />
@@ -103,7 +103,7 @@ This repo is the **core engine source** of `ttpoker / Texas-Hold-em-Cash-Tables_
 ## 📞 正式联系方式
 
 
-- **Telegram**：@godispokerai
+- **Telegram**：@lovepokers
 - EMail:libaishi62@gmail.com
 
 
