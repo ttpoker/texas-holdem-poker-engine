@@ -106,12 +106,7 @@
 
 > 具体价格欢迎联系获取详细报价方案。
 
-## 技术架构（Tech Stack）
 
-- 服务端 / Backend：`C++ / Java 
-- 通信协议 / Protocol：`WebSocket / TCP / HTTP API`  
-- 依赖数据库 / Database：`MySQL）  
-- 适用端 / Suitable for：Web（H5）、App（Android / iOS）、小程序、社交平台接入  
 
 
 ## 🎯 我们提供什么（合作方可直接获得）
